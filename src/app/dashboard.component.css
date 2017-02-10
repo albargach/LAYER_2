@@ -1,0 +1,27 @@
+.navigation-bar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.navigation-bar .caption {
+  margin-left: 20px;
+}
+
+.navigation-bar button {
+  width: 100px;
+  height: 100%;
+  font-size: 1em;
+}
+
+.content {
+  padding: 30px 30px;
+}
+
+.content .user {
+  margin-top: 10px;
+  color: green;
+}
