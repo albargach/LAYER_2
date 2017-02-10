@@ -1,0 +1,4 @@
+.progress-dialog {
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.6) url("../assets/img/progress.svg") no-repeat center;
+}
