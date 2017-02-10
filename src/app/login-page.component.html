@@ -1,0 +1,10 @@
+<div class="login-page">
+  <div class="login-form">
+    <h3 class="text-center">Login to your account</h3>
+    <input type="text" [(ngModel)]="username" placeholder="Username">
+    <input type="password" [(ngModel)]="password" placeholder="Password">
+    <button (click)="doLogin()">Login to your account</button>
+    <div class="error-label">{{getLastError()}}</div>
+  </div>
+</div>
+
